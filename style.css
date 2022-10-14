@@ -1,0 +1,20 @@
+h1 {
+    background: chocolate;
+    color: silver;
+}
+h2 {
+    background: coral;
+    color: silver;
+}
+p {
+    background: antiquewhite;
+    color: darkmagenta;
+}
+ul {
+    background: darkmagenta;
+    color: darkgray;
+}
+img {
+    width: 200px;
+}
+
