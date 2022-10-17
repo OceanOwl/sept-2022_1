@@ -1,0 +1,52 @@
+.container{
+    background: coral;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+.card {
+    height: 400px;
+    width: 300px;
+    background: silver;
+
+}
+
+.text {
+    font-size: 45px;
+    height: 100px;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    .space{
+        display: flex;
+
+    }
+
+
+}
+
+.thirdpart {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+
+
+}
