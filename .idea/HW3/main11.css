@@ -1,0 +1,78 @@
+.background-black {
+    background: darkslategrey;
+}
+
+.bg-cornfl {
+    background: cornflowerblue;
+}
+
+.bgfirst {
+    background: silver;
+}
+
+.blockw {
+    width: 100px;
+
+}
+
+.blockh {
+    height: 100px;
+}
+
+.firststep {
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.item1 {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    margin-left: 40px;
+
+
+}
+
+.angles {
+    border-radius: 10px;
+}
+
+.item2 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.icon {
+    font-size: 50px;
+    color: black;
+}
+
+.secondstep {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.item3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+
+.itemIDFK {
+    height: 200px;
+}
