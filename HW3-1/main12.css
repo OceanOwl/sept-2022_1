@@ -24,8 +24,10 @@
     position: relative;
     bottom: 40px;
     margin-left: 100px;
+    background: silver;
 }
-.icon{
+
+.icon {
     font-size: 50px;
     color: cadetblue;
 }
@@ -45,14 +47,13 @@
     text-align: center;
     font-size: 25px;
     font-family: Arial;
+}
 
 .space {
     display: flex;
 
 }
 
-
-}
 
 .thirdpart {
     display: flex;
@@ -65,6 +66,4 @@
     border: solid black;
     justify-content: center;
     align-items: center;
-
-
 }
