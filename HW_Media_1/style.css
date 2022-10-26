@@ -1,0 +1,101 @@
+.firststructure {
+    height: 200px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 30px;
+}
+
+.blockB {
+    height: 200px;
+    width: 100%;
+    background: silver;
+    margin-top: 5px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.mainstructure {
+    display: flex;
+    width: 100%;
+}
+
+.mainn {
+    width: 75%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.blockF {
+    width: 25%;
+    height: 400px;
+    background: silver;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.blockC {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.blockD {
+    width: 200px;
+    height: 200px;
+    background: silver;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+
+
+}
+
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .firststructure {
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .mainstructure {
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+
+    .mainn {
+        width: 100%;
+
+    }
+
+    .blockC {
+        height: 100px;
+    }
+
+    .blockF {
+        height: 100px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
