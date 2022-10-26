@@ -1,0 +1,67 @@
+.firstblock {
+    height: 200px;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.structure {
+    display: flex;
+}
+
+.secondblock {
+    height: 400px;
+    width: 75%;
+    background: silver;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdblock {
+    height: 400px;
+    width: 25%;
+    background: silver;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .firstblock {
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .structure {
+        display: block
+
+
+
+    }
+.secondblock{
+    height: 300px;
+    width: 100%;
+}
+.thirdblock{
+    height: 100px;
+    width: 100%;
+    margin-left: 0;
+
+}
+
+}
